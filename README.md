@@ -1,12 +1,13 @@
-# Página de inicio con tema oscuro de Fylo
+# Página de inicio "Fylo" con diseño de dos columnas
 
-El desafío es desarrollar esta landing page y lograr que se parezca lo más posible al diseño.
+El desafío es construir esta página de destino y lograr que se parezca lo más posible al diseño.
 
 - HTML
 - CSS
 - JS Vanilla
 
-![desktop-preview](https://user-images.githubusercontent.com/112582420/202324007-c4df885b-1bde-4551-8757-8cbac8b0b730.jpg)
+![desktop-preview](https://user-images.githubusercontent.com/112582420/190839368-decb935a-b765-4503-9cfb-9aff6b651f09.jpg)
+
 
 # Guía de Estilo
 
@@ -18,32 +19,25 @@ Los diseños se crearon con los siguientes anchos:
 - Desktop: 1440px
 
 ## Colores
+
 ### Primarios
 
-- Dark Blue (intro and email sign up background): hsl(217, 28%, 15%)
-- Dark Blue (main background): hsl(218, 28%, 13%)
-- Dark Blue (footer background): hsl(216, 53%, 9%)
-- Dark Blue (testimonials background): hsl(219, 30%, 18%)
+- Very Dark Blue: hsl(243, 87%, 12%)
+- Desaturated Blue: hsl(238, 22%, 44%)
 
 ### Acento
 
-- Cyan (inside call-to-action gradient): hsl(176, 68%, 64%)
-- Blue (inside call-to-action gradient): hsl(198, 60%, 50%)
-- Light Red (error): hsl(0, 100%, 63%)
+- Bright Blue: hsl(224, 93%, 58%)
+- Moderate Cyan: hsl(170, 45%, 43%)
 
 ### Neutrales
 
-- White: hsl(0, 0%, 100%)
+- Light Grayish Blue: hsl(240, 75%, 98%)
+- Light Gray: hsl(0, 0%, 75%)
 
 ## Tipografía
 
-### Cuerpo
-
-- Font size : 14px
-
-### Fuentes
-
-### Títulos, CTA, Navegación
+### Encabezados, llamadas a la acción, navegación de encabezado
 
 - Family: [Raleway](https://fonts.google.com/specimen/Raleway)
 - Weights: 400, 700
@@ -51,17 +45,6 @@ Los diseños se crearon con los siguientes anchos:
 ### Cuerpo
 
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-- Weights: 400, 700
-
-
-
-
-
-
-
-
-
-
-
+- Weights: 400
 
 
