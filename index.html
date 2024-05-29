@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+  />
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="func.js" defer></script>
+  <title>Fylo Landing Page With Two Column Layout</title>
+</head>
+
+<body>
+  <!-- CONTAINER -->
+  <main class="container">
+     <!-- HEADER -->
+      <header class="header">
+             <!-- NAVBAR -->
+              <nav class="navbar">
+                  <figure class="hder-logo">
+                      <img src="images/logo.svg" alt="logo" class="logo-img">
+                  </figure>
+                  <!-- HEADER MENU -->
+                  <div class="navbar-menu">
+                    <ul class="navbar-items">
+                        <li>
+                            <a href="#">Features</a>
+                        </li>
+                        <li>
+                            <a href="#">Team</a>
+                        </li>
+                        <li>
+                            <a href="#">Sign In</a>
+                        </li>
+                    </ul>
+                  </div>
+              </nav>
+              <!-- HEADER ILLUSTRATION DETAILS-->
+              <section class="header-illustration">
+                <article class="illustrationH-detail">
+                  <h1 class="illustrationH-title">
+                      All your files in one secure location, accessible anywhere.
+                  </h1>
+                  <p class="illustrationH-p">
+                      Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.
+                  </p>
+                  <form action="#" class="illustrationH-form" id="header-form">
+                     <label for="illustrationH-email">
+                       <input 
+                       type="text" 
+                       name="illustrationH-email" 
+                       class="illustrationH-input" 
+                       id="illustrationH-email" 
+                       placeholder="Enter your email..."
+                       >
+                     </label>
+                     <span class="err_msg" id="error_msg_span"></span>
+                     <button type="submit" class="illustrationH-btn">
+                       Get Started
+                     </button>
+                  </form>
+               </article>
+               
+               <figure class="illustrationH-img">
+                <!----------------------------->  
+               </figure>
+            </section>
+      </header>
+     <!-- IMAGE CURVE BACKGROUND CSS -->
+     <div class="bg_curve">
+      <!----------------->
+     </div>
+     <!-- MAIN CONTENT SECTION-->
+     <section class="content-container">
+             <!-- CONTENT CTA SECTION -->
+         <section class="content">
+          
+           <article class="content-details">
+               <h2 class="content-title">
+                 Stay productive, wherever you are
+               </h2>
+               <p class="content-p">
+                 Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.
+               </p>
+               <p class="content-p">
+                 Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+               </p>
+             
+               <div class="content-wrap-link">
+                   <a href="#" class="content-link" id="fylo_link">See how Fylo works</a>
+                   <figure>
+                       <img src="./images/icon-arrow.svg" alt="arrow icon" class="content-link-icon">
+                   </figure>
+               </div>
+               
+               <div class="content-card">
+                  
+                   <figure>
+                      <img src="images/icon-quotes.svg" class="card-icon" alt="icon quotes">
+                   </figure>
+                   <blockquote class="card-comment">
+                      Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.
+                   </blockquote>
+                   
+                   <div class="card-user">
+                       <figure>
+                          <img src="images/avatar-testimonial.jpg" class="user-img" alt="user photo">
+                       </figure>
+                    
+                       <div>
+                           <h2 class="card-username">
+                               Kyle Burton
+                           </h2>
+                           <h3 class="user-position">
+                               Founder & CEO, Huddle
+                           </h3>
+                       </div>
+                   
+                   </div>
+                   
+               </div>
+               
+           </article>
+           <!-- IMAGE CURVE BACKGROUND CSS -->
+           <div class="content-image">
+            <!---------------------->
+           </div>
+           
+         </section>
+         
+     </section>
+     
+     <!-- SUBSCRIBE SECTION --> 
+     <section class="subscribe">
+        <div class="sub-content">
+            <article class="sub-details">
+                <h2 class="sub-title">Get early access today</h2>
+                <p class="sub-p">
+                    It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+                </p>
+            </article>
+            <form action="#" class="sub-form" id="sub-form">
+                <label for="email" style="position: absolute; opacity: 0">Email</label>
+                <input 
+                     type="text" 
+                     name="sub-email" 
+                     id="sub-email" 
+                     class="sub-input" 
+                     placeholder="email@example.com"
+                >
+                <span class="sub-err-msg" id="sub-err-msg"></span>
+                <button type="submit" class="sub-btn">Get Started For Free</button>
+            </form>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-wrap">
+        
+        <div class="footer-contact">
+            <figure>
+                <img src="images/logo_footer.svg" alt="logo image" class="footer-logo">
+            </figure>
+             
+            <div class="contact-phone">
+              <figure>
+                <img src="images/icon-phone.svg" alt="icon phone" class="phone-icon">
+              </figure>
+              <p class="phone-number">+1-543-123-4567</p>
+            </div>
+            
+            <div class="contact-email">
+              <figure>
+                <img src="images/icon-email.svg" alt="icon email" class="email-icon">
+              </figure>
+              <p class="email-address">example@fylo.com</p>
+            </div>
+        </div>
+        <!-- FOOTER MENU -->
+        <nav class="footer-menu">
+          <ul class="menu-list">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">I LOVE CODING</a></li>
+          </ul>
+        </nav>
+        <!-- FOOTER SOCIALS -->
+        <div class="footer-socials">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+    </footer>
+    
+  </main>
+</body>
+</html>
